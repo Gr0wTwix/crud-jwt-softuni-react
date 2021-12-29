@@ -1,0 +1,46 @@
+
+h1 {
+    text-align:center;
+    color: black;
+    font-weight: thin;
+    margin:0 0 40px;
+}
+
+label {
+    position: relative;
+    transform:translateY(6px);
+    left:5px;
+    color:rgba(white,.5);
+    transition:all 0.25s ease;
+    pointer-events: none;
+    font-size:20px;
+  }
+  
+  label.active {
+    transform:translateY(50px);
+    left:2px;
+    font-size:14px;
+  }
+  
+  label.highlight {
+      color:rgb(255, 255, 255);
+  }
+
+.button {
+    border:0;
+    outline:none;
+    border-radius:0;
+    padding:15px 0;
+    font-size:2rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color: gray;
+    transition:all.5s ease;
+    -webkit-appearance: none;
+  }
+
+  .button-block {
+    display:block;
+    width:100%;
+  }
